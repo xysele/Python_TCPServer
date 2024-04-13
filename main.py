@@ -3,7 +3,7 @@ import socketserver
 import subprocess
 import os
 
-PORT = 8443
+PORT = 3000
 Handler = http.server.SimpleHTTPRequestHandler
 
 with socketserver.TCPServer(("", PORT), Handler) as httpd:
